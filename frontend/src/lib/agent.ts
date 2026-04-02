@@ -5,7 +5,7 @@ import type { BackendActor } from "./types";
 
 function getBackendCanisterId(): string {
   const env = safeGetCanisterEnv();
-  return env?.["PUBLIC_CANISTER_ID:backend"] ?? "kfhms-uaaaa-aaaae-ageyq-cai";
+  return env?.["PUBLIC_CANISTER_ID:backend"] ?? "m7tbp-uaaaa-aaaab-qgqvq-cai";
 }
 
 const IS_LOCAL = typeof window !== "undefined"
